@@ -1,24 +1,37 @@
 # NewsBot
-A Discord bot created to share the latest news!
 
-<img align="center" title="NewsBot" alt="NewsBot" width="100px" src="https://cdn.pixabay.com/photo/2016/05/28/19/45/newspaper-1422025_1280.png" />
+<p align="center">
+  <a title="NewsBot" href="">
+      <img src="https://cdn.pixabay.com/photo/2016/05/28/19/45/newspaper-1422025_1280.png">
+  </a>
+</p>
+<p align="center">
+  <a title="Node" href="">
+    <img src="https://img.shields.io/badge/node.js-9.3.0-brightgreen.svg">
+  </a>
+</p>
+
+A Discord bot created to share the latest news from NewsAPI!
 
 ## Hosting the Bot:
 - Create a Discord bot in the Discord Developer Portal
 - Invite the bot to your server
-- Open up the terminal in your project folder
-- Run npm init
-- Run npm install
-- Create a .env file in the same folder
+- Open up the terminal in your project folder (I use `ctrl + \``)
+- Run `npm init`
+- Run `npm install`
+- Run `tsc`
+- Create a `.env` file in the same folder
 - Go to https://newsapi.org and sign up for a free API key
-- Type:
-  BOT_TOKEN=your_token_here
-  BOT_PREFIX=choose_a_bot_prefix
-  NEWSAPI_TOKEN=your_api_key
-- Then run node .
+- In the `.env` file, create 3 variables: `BOT_TOKEN`, `BOT_PREFIX`, and `NEWSAPI_TOKEN`
+- Set `BOT_TOKEN` to the token of your bot (you can retrieve it from the Discord Developer Portal)
+- Set `BOT_PREFIX` to any prefix you want, *as long as it does not contain spaces*
+- Set `NEWSAPI_TOKEN` to the token you get from NewsAPI
+- Then run `node .` to start up your bot!
 - Have fun!
 
-<br />
+## Using the Bot:
+- The bot prefix is `$`
+- Type `$help` to get started!
 
 ## Tools:
 <img align="left" title="Visual Studio Code" alt="Visual Studio Code" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" />
