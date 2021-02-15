@@ -27,5 +27,8 @@
 		"eris": "^0.14.0",
 		"eris-sharder": "github:discordware/eris-sharder",
 		"typescript": "^4.1.5"
+	},
+	"engines": {
+		"node": "15.6.0"
 	}
 }
