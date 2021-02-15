@@ -53,7 +53,7 @@ module.exports = new Command(
 					message.author,
 					`${articles[page].author ? articles[page].author : "N/A"} | ${
 						articles[page].source.name
-					} | ${page + 1} / ${articles.length + 1}`
+					} | ${page + 1} / ${articles.length}`
 				),
 				timestamp: new Date()
 			}
@@ -72,7 +72,7 @@ module.exports = new Command(
 		const collector: ReactionCollector = bot.reactionHandler.awaitReactions(
 			msg,
 			filter,
-			{ idle: 3e5 }
+			{ idle: 6e4 }
 		);
 
 		collector.on("collect", async (userID: string, emoji: Emoji) => {
@@ -94,7 +94,7 @@ module.exports = new Command(
 						message.author,
 						`${articles[page].author ? articles[page].author : "N/A"} | ${
 							articles[page].source.name
-						} | ${page + 1} / ${articles.length + 1}`
+						} | ${page + 1} / ${articles.length}`
 					),
 					timestamp: new Date()
 				}
