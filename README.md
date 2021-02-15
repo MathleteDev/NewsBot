@@ -1,6 +1,8 @@
 # NewsBot
 
 A Discord bot created to share the latest news from NewsAPI!
+
+<br />
 <img align="left" title="Node" alt="Node" src="https://img.shields.io/badge/node.js-9.3.0-brightgreen.svg" />
 
 ## Hosting the Bot:
